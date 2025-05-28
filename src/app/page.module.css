@@ -1,0 +1,71 @@
+.tudo{
+  justify-content: center;
+  height: 100vh;
+  margin: auto;
+  width: 700px;
+  border: 1px solid beige;
+}
+.botao{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.botao button{
+  display: flex;
+  border: none;
+  background-color: rgb(206, 206, 206);
+  border-radius: 5px;
+  width: 80px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  font-size: x-small;
+  gap: 5px;
+}
+.pesquisa{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 15px;
+  align-items: center;
+  height: 30px;
+  gap: 10px;
+}
+.imagempesq{
+  margin-left: 5px;
+}
+.pesquisa input{
+  border: none;
+  width: 300px;
+}
+.cardapio{
+  margin-top: 20px;
+}
+.cardapio h1{
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.cardapiotudo{
+  margin-top: 20px;
+  background-color: rgb(243, 243, 243);
+  height: 500px;
+}
+.cardapiotudo2{
+  padding-left: 10px;
+  padding-top: 10px;
+  gap: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 250px;
+}
+.linha{
+  display: flex;
+  flex-direction: row;
+  gap: 38px;
+}

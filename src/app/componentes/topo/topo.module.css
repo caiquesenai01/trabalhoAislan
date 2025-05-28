@@ -1,0 +1,27 @@
+.imagem {
+    background-image: url('/banner.png');
+    height: 300px;
+    width: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.topo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: orange;
+    padding-top: 120px;
+    font-size: large;
+}
+.topo h1{
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ffa500, 0 0 20px #ff8c00, 0 0 30px #ff4500;
+}
+.topo p{
+    font-family: 'Playfair Display', serif;
+}
