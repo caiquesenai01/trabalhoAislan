@@ -1,20 +1,54 @@
-.tudo{
+.cards{
+    width: auto;
+    height: auto;
+    border: 1px solid yellow;
+}
+.descricoes{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 1px solid yellow;
-    gap: 5px;
+    width: auto;
+    height: auto;
+    margin: 0%;
 }
-.tudo h3{
-    text-align: center;
+.descricoes p{
+    font-size: small;
 }
-.tudo h6{
-    text-align: center;
-}
-.tudo p{
-    padding-left: 5px;
-}
-.tudo h4{
+.preco{
     display: flex;
-    margin-right: -139px;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+.preco h4{
+    display: flex;
+}
+.descricoes h6{
+    color:#daa520;
+}
+
+.cards_p{
+    width: auto;
+    height: auto;
+    border: 1px solid yellow;
+}
+.descricoes_p{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: 0%;
+}
+.descricoes_p p{
+    font-size: small;
+}
+.preco_p{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.preco_p h4{
+    display: flex;
+}
+.descricoes_p h6{
+    color:#daa520;
+}
+

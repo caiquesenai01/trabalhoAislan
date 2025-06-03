@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 .imagem {
     background-image: url('/banner.png');
     height: 300px;
-    width: 700px;
+    width: 773px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,10 +20,12 @@
 .topo h1{
     font-family: "Playfair Display", serif;
     color: white;
-    font-size: 2em;
+    font-size: 46px;
     font-weight: bold;
     text-shadow: 0 0 10px #ffa500, 0 0 20px #ff8c00, 0 0 30px #ff4500;
 }
 .topo p{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dancing Script', cursive;
+    color: #daa520;
+    font-size: 32px;
 }
